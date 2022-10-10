@@ -1,6 +1,6 @@
-import { Server } from 'server';
+import { Server } from './server'
 
-export const app: any = new Server;
+export const app: any = new Server()
 
-app.start();
-export const log = app.log;
+app.start()
+export const log = app.log
