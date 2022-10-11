@@ -1,5 +1,5 @@
 import { Server } from "@hapi/hapi";
-import { Config } from "./config";
+import { Config } from "./Config";
 import { routes } from "./routes/astronauts.routes";
 
 const init = async () => {
