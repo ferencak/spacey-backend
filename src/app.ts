@@ -4,7 +4,7 @@ import { routes } from "./routes/astronauts.routes";
 
 const init = async () => {
   const server: Server = new Server({
-    port: Config.PORT,
+    port: process.env.PORT || Config.PORT,
     host: "0.0.0.0",
     routes: {
       cors: {
