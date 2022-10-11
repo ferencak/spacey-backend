@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { Config } from "./config";
+import { Config } from "./Config";
 
 mongoose
   .connect(Config.MONGO_URL, {
